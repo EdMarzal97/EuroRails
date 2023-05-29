@@ -19,7 +19,7 @@ const IntroductionPage: React.FC = () => {
       <div className="flex space-x-4">
         <button
           className="px-4 py-2 rounded bg-blue-500 text-white"
-          onClick={() => handleLanguageSelect('en')}
+          onClick={() => handleLanguageSelect('de')}
         >
           Deutsch
         </button>
@@ -31,9 +31,21 @@ const IntroductionPage: React.FC = () => {
         </button>
         <button
           className="px-4 py-2 rounded bg-blue-500 text-white"
-          onClick={() => handleLanguageSelect('fr')}
+          onClick={() => handleLanguageSelect('en')}
         >
           English
+        </button>
+        <button
+          className="px-4 py-2 rounded bg-blue-500 text-white"
+          onClick={() => handleLanguageSelect('fr')}
+        >
+          Français
+        </button>
+        <button
+          className="px-4 py-2 rounded bg-blue-500 text-white"
+          onClick={() => handleLanguageSelect('ita')}
+        >
+          Italiano
         </button>
       </div>
     </div>
